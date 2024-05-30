@@ -11,13 +11,13 @@ const Item4 = ({
 }) => {
   return (
     <div>
-      <div className="card">
+      <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 ">
         <img src={image} alt={title} />
-        <h2>{title}</h2>
-        <h3>{subtitle}</h3>
+        <h2 className="text-black uppercase text-lg font-semibold">{title}</h2>
+        <h3 className="text-blue-500 text-lg font-bold">{subtitle}</h3>
         <p>{paragraph}</p>
         <a href={buttonLink}>
-          <button>{buttonText}</button>
+          <button className="text-blue-800 text-xl pr-0">{buttonText}</button>
         </a>
       </div>
     </div>

@@ -8,32 +8,32 @@ import amwell from "../assets/images/amwell.svg";
 
 const Footer = () => {
   return (
-    <footer>
-      <div>
-        <h2>
-          <img src={amwell} alt="amwell logo" />
-        </h2>
-        <p>Am well on social media:</p>
-        <ul>
-          <li>
-            <img src={facebook} alt="facebook" />
-          </li>
-          <li>
-            <img src={ig} alt="instagram" />
-          </li>
-          <li>
-            <img src={x} alt="twitter" />
-          </li>
-          <li>
-            <img src={linkedin} alt="linkedin" />
-          </li>
-          <li>
-            <img src={yt} alt="youtube" />
-          </li>
-        </ul>
-      </div>
-      <section>
-        <div>
+    <footer className="bg-blue-950 pl-40 py-6">
+      <section className=" flex items-center justify-between pr-[650px]">
+        <div className="px-4 -pt-6">
+          <h2>
+            <img src={amwell} alt="amwell logo" className="h-10" />
+          </h2>
+          <p className="text-blue-400">Am well on social media:</p>
+          <ul className="flex space-x-4 ">
+            <li>
+              <img src={facebook} alt="facebook" className="w-5 h-5" />
+            </li>
+            <li>
+              <img src={ig} alt="instagram" className="h-5 w-5" />
+            </li>
+            <li>
+              <img src={x} alt="twitter" className="h-5 w-5" />
+            </li>
+            <li>
+              <img src={linkedin} alt="linkedin" className="h-5 w-5" />
+            </li>
+            <li>
+              <img src={yt} alt="youtube" className="h-5 w-5" />
+            </li>
+          </ul>
+        </div>
+        <div className="text-white">
           <h2>
             <a href="#">Who We Serve</a>
           </h2>
@@ -58,7 +58,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="text-white">
           <h2>
             <a href="#">What We Offer</a>
           </h2>
@@ -80,7 +80,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="text-white">
           <h2>
             <a href="#">About Us</a>
           </h2>
@@ -115,26 +115,24 @@ const Footer = () => {
           </ul>
         </div>
       </section>
-      <footer>
-        <div>
-          <ul>
-            <li>
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="#">Terms of Use</a>
-            </li>
-            <li>
-              <a href="#">Sitemap</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <p>
-            ©2024 American Well. Amwell is a registered trademark of American
-            Well Corporation.
-          </p>
-        </div>
+      <footer className="py-6 pr-[790px]">
+        <ul className="text-white flex justify-between ">
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#">Terms of Use</a>
+          </li>
+          <li>
+            <a href="#">Sitemap</a>
+          </li>
+          <li>
+            <p>
+              ©2024 American Well. Amwell is a registered trademark of American
+              Well Corporation.
+            </p>
+          </li>
+        </ul>
       </footer>
     </footer>
   );

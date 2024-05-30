@@ -32,7 +32,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div>
-        <img src={hero} alt="hero-image" />
+        <img src={hero} alt="hero-logo" />
       </div>
     </section>
   );

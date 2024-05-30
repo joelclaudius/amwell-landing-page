@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
-import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import Section from "./components/Section";
 import Section3 from "./components/Section3";
@@ -21,7 +20,6 @@ function App() {
       <Section3 header={section3[0].header} items={section3[0].items} />
       <Section4 header={sections[2].header} items={sections[2].items} />
       <ContactUs />
-      <Testimonials />
       <Footer />
     </div>
   );

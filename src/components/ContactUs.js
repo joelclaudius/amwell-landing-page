@@ -4,9 +4,9 @@ import Button from "./Button";
 
 const ContactUs = () => {
   return (
-    <section id="features">
+    <section className="bg-blue-500 text-white px-[380px] py-6 flex justify-between text-lg">
       <div>
-        <img src={contactus} alt="Contact Us" />
+        <img src={contactus} alt="Contact Us" className="h-20" />
       </div>
       <div>
         <h3>Contact us</h3>
@@ -16,7 +16,9 @@ const ContactUs = () => {
         </p>
       </div>
       <di>
-        <Button>Contact us</Button>
+        <button className="text-white bg-black rounded-lg size-[100px]">
+          Contact us
+        </button>
       </di>
     </section>
   );

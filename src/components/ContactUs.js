@@ -1,27 +1,22 @@
-import React from "react";
-import contactus from "../assets/images/contactus.jpg";
-import Button from "./Button";
+import React from 'react';
 
 const ContactUs = () => {
-  return (
-    <section className="bg-blue-500 text-white px-[380px] py-6 flex justify-between text-lg">
-      <div>
-        <img src={contactus} alt="Contact Us" className="h-20" />
-      </div>
-      <div>
-        <h3>Contact us</h3>
-        <p>
-          Let's talk about how we can digitally empower your healthcare
-          ambitions.
-        </p>
-      </div>
-      <di>
-        <button className="text-white bg-black rounded-lg size-[100px]">
-          Contact us
-        </button>
-      </di>
-    </section>
-  );
-};
+    return (
+        <section className="bg-blue-600 py-12 relative">
+            <div className="container mx-auto px-4 text-center">
+                <div className="absolute top-0 left-0 p-4">
+                    <img src="https://business.amwell.com/icons/cms/blocks/cta-footer/doctor-with-headset-icon.svg" alt="Contact Icon" className="w-16 h-16" />
+                </div>
+                <h2 className="text-3xl font-bold text-white mb-4">Contact us</h2>
+                <p className="text-lg text-white mb-8">
+                    Let's talk about how we can digitally empower your healthcare ambitions.
+                </p>
+                <button className="bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition duration-300">
+                    Contact Us
+                </button>
+            </div>
+        </section>
+    );
+}
 
 export default ContactUs;

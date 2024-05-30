@@ -6,7 +6,9 @@ const Header = () => {
   return (
     <nav className="bg-blue-950 flex items-center px-[380px] py-6 justify-between">
       <div className="mr-8">
-        <img src={amwell} alt="amwell logo" className="h-10" />
+      
+            <img src={amwell} alt="amwell logo" className="h-10" />
+           
       </div>
       <ul className="flex items-center space-x-8 text-white text-">
         <li>

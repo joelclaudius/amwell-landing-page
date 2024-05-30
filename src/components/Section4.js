@@ -5,7 +5,7 @@ import Nav from "./Nav";
 const Section4 = ({ header, nav, items }) => {
   return (
     <>
-      <div className="py-10 px-[380px]">
+      <div className="py-3 px-2">
         <h1 className="text-blue-500 text-4xl py-10 font-bold text-center">
           {header}
         </h1>

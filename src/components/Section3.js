@@ -3,7 +3,7 @@ import Item3 from "./Item3";
 
 const Section3 = ({ header, items }) => {
   return (
-    <div className="py-10 px-[380px]">
+    <div className="py-3 px-3">
       <h1 className="text-blue-500 text-4xl py-10 font-bold text-center">
         {header}
       </h1>

@@ -3,7 +3,7 @@ import contactus from "../../assets/images/contactus.jpg";
 
 const ContactUs = () => {
   return (
-    <section className="bg-blue-500 text-white px-[200px] py-10 mt-[80px] flex justify-between text-lg h-60">
+    <section className="bg-blue-500 text-white px-[200px] py-10 mt-[80px] flex justify-between text-lg h-60 mb-0">
       <div>
         <img src={contactus} alt="Contact Us" className="h-20" />
       </div>

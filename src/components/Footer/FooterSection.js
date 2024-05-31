@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const FooterSection = () => {
   return (
     <footer>
-      <ContactUs />y
+      <ContactUs />
       <Footer />
     </footer>
   );

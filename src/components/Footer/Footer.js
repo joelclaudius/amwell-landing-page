@@ -1,15 +1,15 @@
 import React from "react";
-import facebook from "../assets/images/facebook.jpg";
-import ig from "../assets/images/ig.jpg";
-import x from "../assets/images/x.png";
-import linkedin from "../assets/images/linkedin.jpg";
-import yt from "../assets/images/yt.png";
-import amwell from "../assets/images/amwell.svg";
+import facebook from "../../assets/images/facebook.jpg";
+import ig from "../../assets/images/ig.jpg";
+import x from "../../assets/images/x.png";
+import linkedin from "../../assets/images/linkedin.jpg";
+import yt from "../../assets/images/yt.png";
+import amwell from "../../assets/images/amwell.svg";
 
 const Footer = () => {
   return (
     <footer className="bg-blue-950 pl-40 py-6">
-      <section className=" flex items-center justify-between pr-[650px]">
+      <section className=" flex items-center justify-between pr-[150px]">
         <div className="px-4 -pt-6">
           <h2>
             <img src={amwell} alt="amwell logo" className="h-10" />
@@ -34,7 +34,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="text-white">
-          <h2>
+          <h2 className="font-bold">
             <a href="#">Who We Serve</a>
           </h2>
           <ul>
@@ -59,7 +59,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="text-white">
-          <h2>
+          <h2 className="font-bold">
             <a href="#">What We Offer</a>
           </h2>
           <ul>
@@ -81,7 +81,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="text-white">
-          <h2>
+          <h2 className="font-bold">
             <a href="#">About Us</a>
           </h2>
           <ul>
@@ -115,7 +115,7 @@ const Footer = () => {
           </ul>
         </div>
       </section>
-      <footer className="py-6 pr-[790px]">
+      <footer className="py-6 pr-[750px]">
         <ul className="text-white flex justify-between ">
           <li>
             <a href="#">Privacy Policy</a>

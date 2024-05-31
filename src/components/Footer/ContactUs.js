@@ -1,14 +1,14 @@
 import React from "react";
-import contactus from "../assets/images/contactus.jpg";
+import contactus from "../../assets/images/contactus.jpg";
 
 const ContactUs = () => {
   return (
-    <section className="bg-blue-500 text-white px-[380px] py-10 mt-[80px] flex justify-between text-lg h-60">
+    <section className="bg-blue-500 text-white px-[200px] py-10 mt-[80px] flex justify-between text-lg h-60">
       <div>
         <img src={contactus} alt="Contact Us" className="h-20" />
       </div>
       <div>
-        <h3>Contact us</h3>
+        <h3 className="font-bold text-xl">Contact us</h3>
         <p>
           Let's talk about how we can digitally empower your healthcare
           ambitions.

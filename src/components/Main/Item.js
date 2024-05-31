@@ -1,7 +1,7 @@
 // Item.js
 import React from "react";
 
-const Item4 = ({
+const Item = ({
   image,
   title,
   subtitle,
@@ -10,7 +10,7 @@ const Item4 = ({
   buttonLink,
 }) => {
   return (
-    <div className="bg-white shadow-md rounded-lg hover:shadow-lg transition-shadow duration-300">
+    <div className="bg-white p-5 shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out rounded-lg py-4 mb-4 h-100">
       <img src={image} alt={title} className="rounded-t-lg" />
       <h2 className="text-black uppercase text-lg font-semibold m-3 px-2">
         {title}
@@ -26,4 +26,4 @@ const Item4 = ({
   );
 };
 
-export default Item4;
+export default Item;

@@ -2,7 +2,7 @@ import React from "react";
 
 const ClientEmpowerment = () => {
   return (
-    <section className="bg-white py-12">
+    <section className=" py-12">
       <div className="container mx-auto px-4 flex items-center">
         <div className="w-1/2">
           <img
@@ -16,8 +16,10 @@ const ClientEmpowerment = () => {
             We are empowering our clients
           </h2>
 
-          <div className="block rounded-lg bg-white shadow-secondary-1 dark:bg-surface-dark">
-            <h3 className="text-2xl font-semibold mb-4">Phone patient</h3>
+          <div className="bg-white p-5 shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out rounded-lg py-4 mb-4 h-100">
+            <h3 className="text-2xl font-semibold mb-4 text-blue-500">
+              Phone patient
+            </h3>
             <p className="mb-4">Improving financial & clinical performance</p>
             <p className="mb-4">
               In one year, Corewell Health saved more than $1 million in
@@ -28,8 +30,8 @@ const ClientEmpowerment = () => {
             </a>
           </div>
 
-          <div className="mb-8 block rounded-lg bg-white shadow-secondary-1 dark:bg-surface-dark">
-            <h3 className="text-2xl font-semibold mb-4">
+          <div className="bg-white p-5 shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out rounded-lg py-4 mb-4 h-100">
+            <h3 className="text-2xl font-semibold mb-4 text-blue-500">
               Optimizing workforce
             </h3>
             <p className="mb-4">
@@ -43,8 +45,8 @@ const ClientEmpowerment = () => {
             </a>
           </div>
 
-          <div className="mb-8 block rounded-lg bg-white shadow-secondary-1 dark:bg-surface-dark">
-            <h3 className="text-2xl font-semibold mb-4">
+          <div className="bg-white p-5 shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out rounded-lg py-4 mb-4 h-100">
+            <h3 className="text-2xl font-semibold mb-4 text-blue-500">
               Achieving digital care success
             </h3>
             <p className="mb-4">

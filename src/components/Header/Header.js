@@ -1,6 +1,6 @@
 import React from "react";
-import search from "../assets/images/search.jpg";
-import amwell from "../assets/images/amwell.svg";
+import search from "../../assets/images/search.jpg";
+import amwell from "../../assets/images/amwell.svg";
 
 const Header = () => {
   return (

@@ -3,7 +3,7 @@ import React from "react";
 const WhyAmwell = () => {
   return (
     <div>
-      <section className="bg-gray-100 py-12">
+      <section className="bg-gray-100 py-12 px-[100]">
         <div className="container mx-auto px-4 flex items-center justify-between">
           <div className="w-1/2">
             <video
@@ -27,7 +27,7 @@ const WhyAmwell = () => {
           </div>
         </div>
       </section>
-      <section className="px-[250px] py-4">
+      <section className="px-[150px] py-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h3 className="text-6xl font-bold text-blue-600 mb-3">115+</h3>

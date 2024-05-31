@@ -8,8 +8,8 @@ import amwell from "../../assets/images/amwell.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-950 pl-40 py-6">
-      <section className=" flex items-center justify-between pr-[150px]">
+    <footer className="bg-blue-950 px-[100px] py-6">
+      <section className=" flex items-center justify-between]">
         <div className="px-4 -pt-6">
           <h2>
             <img src={amwell} alt="amwell logo" className="h-10" />
@@ -115,7 +115,7 @@ const Footer = () => {
           </ul>
         </div>
       </section>
-      <footer className="py-6 pr-[750px]">
+      <footer className="py-6 text-xs">
         <ul className="text-white flex justify-between ">
           <li>
             <a href="#">Privacy Policy</a>
@@ -127,7 +127,7 @@ const Footer = () => {
             <a href="#">Sitemap</a>
           </li>
           <li>
-            <p className="text-sm">
+            <p className="text-xs">
               ©2024 American Well. Amwell is a registered trademark of American
               Well Corporation.
             </p>

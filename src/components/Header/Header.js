@@ -4,7 +4,7 @@ import amwell from "../../assets/images/amwell.svg";
 
 const Header = () => {
   return (
-    <nav className="bg-blue-950 flex items-center px-[200px] py-6 justify-between">
+    <nav className="bg-blue-950 flex items-center px-[100px] py-6 justify-between">
       <div className="mr-8">
         <img src={amwell} alt="amwell logo" className="h-10" />
       </div>

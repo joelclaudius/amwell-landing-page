@@ -2,7 +2,7 @@ import React from "react";
 
 const ClientEmpowerment = () => {
   return (
-    <section className=" py-12">
+    <section className=" py-12 px-[100]">
       <div className="container mx-auto px-4 flex items-center">
         <div className="w-1/2">
           <img

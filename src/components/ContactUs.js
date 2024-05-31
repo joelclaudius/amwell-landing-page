@@ -1,10 +1,9 @@
 import React from "react";
 import contactus from "../assets/images/contactus.jpg";
-import Button from "./Button";
 
 const ContactUs = () => {
   return (
-    <section className="bg-blue-500 text-white px-[380px] py-6 flex justify-between text-lg">
+    <section className="bg-blue-500 text-white px-[380px] py-10 mt-[80px] flex justify-between text-lg h-60">
       <div>
         <img src={contactus} alt="Contact Us" className="h-20" />
       </div>
@@ -16,7 +15,7 @@ const ContactUs = () => {
         </p>
       </div>
       <di>
-        <button className="text-white bg-black rounded-lg size-[100px]">
+        <button className="bg-black text-white px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition duration-300">
           Contact us
         </button>
       </di>

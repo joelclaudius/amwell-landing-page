@@ -127,7 +127,7 @@ const Footer = () => {
             <a href="#">Sitemap</a>
           </li>
           <li>
-            <p>
+            <p className="text-sm">
               ©2024 American Well. Amwell is a registered trademark of American
               Well Corporation.
             </p>
